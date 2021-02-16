@@ -58,6 +58,7 @@ body {
     border: 1px solid black;
     border-radius: 1%;
     background-color: #1687a7;
+    
 }
 
 .infoItem {
@@ -65,10 +66,14 @@ body {
     padding: 10px;
     border: 1px solid gray;
     border-radius: 1%;
-    text-align: center;
+  
     margin: 10px;
-    background-color: #d3e0ea;
+    background-color: rgba(246,245,245,0.75);
  
+}
+
+#groomPrice, #contact {
+    text-align: center;
 }
 
 
@@ -156,10 +161,12 @@ body {
         width: auto;
         display: block;
         justify-content: center;
+        background-image: url("groom.png");
+        background-size: cover;
     }
 
     .infoItem {
         width: auto;
-        text-align: center;
+      
     }
 }
