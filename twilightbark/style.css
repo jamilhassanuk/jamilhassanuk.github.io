@@ -20,7 +20,11 @@ body {
 
 .bannerContainer {
     width: 100%;
+}
 
+.bannerContainer img {
+    border: 1px transparent #1687a7;
+    border-radius: 1%;
 }
 
 
@@ -51,14 +55,16 @@ body {
     width: 100%;
     display: inline-flex;
     justify-content: center;
-
+    border: 1px solid black;
+    border-radius: 1%;
     background-color: #1687a7;
 }
 
 .infoItem {
     min-width: 200px;
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid gray;
+    border-radius: 1%;
     text-align: center;
     margin: 10px;
     background-color: #d3e0ea;
