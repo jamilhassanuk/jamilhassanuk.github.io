@@ -28,7 +28,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: 1px solid red;
+
 }
 
 .statementContainer h1 {
@@ -36,7 +36,7 @@ body {
 }
 
 .statementContainer .social {
-    float: left;
+    margin-right: 100px;
 }
 
 .statementContainer img {
