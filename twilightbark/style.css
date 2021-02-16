@@ -6,15 +6,19 @@
 
 body {
     width: 100%;
-
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
 }
+
+.bodyContainer {
+}
+
 
 .bannerContainer {
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin: 10px;
 }
 
 
@@ -22,6 +26,7 @@ body {
     width: auto;
     display: flex;
     justify-content: center;
+    border: solid 1px red;
 }
 
 .statementContainer h1 {
@@ -30,7 +35,7 @@ body {
 
 
 .infoContainer {
-    width: 100%;
+    width: auto;
     display: inline-flex;
     justify-content: center;
     margin: 10px;
@@ -38,10 +43,9 @@ body {
 }
 
 .infoItem {
-    width: 200px;
+    width: 100%;
     height: auto;
     padding: 10px;
-    margin: 10px;
     border: 1px solid black;
 }
 
@@ -104,13 +108,13 @@ body {
         display: block;
     }
     .infoContainer {
-        width: 100%;
+        width: auto;
         display: block;
         justify-content: center;
     }
 
     .infoItem {
-        width: 100%;
+        width: auto;
         text-align: center;
     }
 }
