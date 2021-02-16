@@ -6,12 +6,14 @@
 
 body {
     width: 100%;
-
+    background-color: #f6f5f5;
     display: flex;
     justify-content: center;
 }
 
 .bodyContainer {
+    position: absolute;
+    top: 0px;
 }
 
 
