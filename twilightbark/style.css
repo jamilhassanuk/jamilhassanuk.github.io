@@ -46,8 +46,8 @@ body {
 }
 
 .statementContainer img {
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
 }
 
 
@@ -146,8 +146,10 @@ body {
     }
 
     .statementContainer h1 {
-        font-size:medium;
-        margin-right: 50px;
+        display: none;
+    }
+    .statementContainer .social {
+        margin-right: -0px;
     }
 
     .infoContainer {
