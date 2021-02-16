@@ -111,6 +111,10 @@ body {
         height: auto;
     }
 
+    .statementContainer h1 {
+        font-size: small;
+    }
+
     .infoContainer {
         width: auto;
         display: block;
