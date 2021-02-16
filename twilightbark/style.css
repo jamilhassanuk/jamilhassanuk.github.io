@@ -27,10 +27,10 @@ body {
     display: flex;
     justify-content: center;
     border: solid 1px red;
+    text-align: center;
 }
 
 .statementContainer h1 {
-    text-align: center;
     color: #253A47;
 }
 
