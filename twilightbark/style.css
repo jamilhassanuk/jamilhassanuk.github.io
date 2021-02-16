@@ -6,7 +6,7 @@
 
 body {
     width: 100%;
-    border: 1px solid red;
+
     display: flex;
     justify-content: center;
 }
@@ -23,15 +23,25 @@ body {
 
 
 .statementContainer {
-    width: auto;
-    display: flex;
+    width: 100%;
+    display: inline-flex;
     justify-content: center;
-    border: solid 1px red;
+    align-items: center;
     text-align: center;
+    border: 1px solid red;
 }
 
 .statementContainer h1 {
     color: #253A47;
+}
+
+.statementContainer .social {
+    float: left;
+}
+
+.statementContainer img {
+    width: 35px;
+    height: 35px;
 }
 
 
@@ -39,14 +49,18 @@ body {
     width: 100%;
     display: inline-flex;
     justify-content: center;
-    border: 2px solid red;
+
+    background-color: #1687a7;
 }
 
 .infoItem {
+    min-width: 200px;
     padding: 10px;
     border: 1px solid black;
     text-align: center;
     margin: 10px;
+    background-color: #d3e0ea;
+ 
 }
 
 
