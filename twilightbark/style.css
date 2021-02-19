@@ -3,6 +3,8 @@
     /*border: 1px solid red; */
 }
 body {
+    max-width: 1400px;
+    margin: auto;
     background-color: #e7e6e1;
     font-family: Oswald;
 }
@@ -18,7 +20,7 @@ header {
 #left-header {
     display: flex;
     align-items: center;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 #right-header {
@@ -87,30 +89,64 @@ header {
     display: flex;
     justify-content: space-around;
     background-color: #314e52;
+    border-top: 10px solid #f68b4d;
 
 }
 
 
 .infoCard {
-    border: 1px solid transparent;
-    border-radius: 2%;
+    
     margin: 20px;
-    max-width: 200px;
+    max-width: 300px;
     background-color: #f7f6e7;
-
+    text-align: center;
 }
 
+.infoCard ul {
+    list-style: none;
+}
 
 
 
 .infoCard img {
-    max-height: 200px;
-    max-width: 200px;
-    opacity: 0.8;
+    max-height: 300px;
+    max-width: 300px;
+    opacity: 0.9;
     background-color: black;
 }
 
-#cali {
-    width: 150px;
-    height: 250px;
+
+/*==================Bottom Banner============*/
+
+
+.bottonBanner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottonBanner {
+  background-image: url("images/french-bulldog-4713013_1920.jpg");
+  background-position: 50% 50%;
+}
+
+
+
+#bottomRight {
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    background-color: #314e52;
+    padding: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px ;
+
+}
+
+#bottomRight ul li {
+    list-style: none;
+    display: inline;
+    color: #f68b4d;
+    padding: 5px;
 }
