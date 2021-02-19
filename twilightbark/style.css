@@ -2,171 +2,115 @@
     box-sizing: content-box;
     /*border: 1px solid red; */
 }
-
-
 body {
-    width: 100%;
-    background-color: #f6f5f5;
+    background-color: #e7e6e1;
+    font-family: Oswald;
+}
+header {
+    height: 130px;
+    background-color: #314e52;
+    color: white;
     display: flex;
+    justify-content: space-between;
+    border-bottom: #f68b4d solid 25px;
+}
+
+#left-header {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+#right-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+}
+
+#nav-list ul li {
+    display: inline;
+    list-style: none;
+    padding: 5px;
+}
+
+#social-media {
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
-.bodyContainer {
-    position: absolute;
-    top: 0px;
-    left: 0px;
+#fbimg {
+    height: 28px;
+    width: 35px;
 }
 
+#instimg {
+    height: 30px;
+    width: 35px;
+}
+
+#mailimg {
+    height: 60px;
+    width: 50px;
+}
+
+
+
+
+/* ===========BANNER================*/
 
 .bannerContainer {
-    width: 100%;
-}
-
-.bannerContainer img {
-    border: 1px transparent #1687a7;
-    border-radius: 1%;
-}
-
-
-.statementContainer {
-    width: 100%;
-    display: inline-flex;
+    display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
-
-}
-
-.statementContainer h1 {
-    color: #253A47;
-}
-
-.statementContainer .social {
-    margin-right: 100px;
-}
-
-.statementContainer img {
-    width: 35px;
-    height: 35px;
-}
-
-
-.infoContainer {
-    width: 100%;
-    display: inline-flex;
-    justify-content: center;
-    border: 1px solid black;
-    border-radius: 1%;
-    background-color: #1687a7;
     
 }
 
-.infoItem {
-    min-width: 200px;
-    padding: 10px;
-    border: 1px solid gray;
-    border-radius: 1%;
-  
-    margin: 10px;
-    background-color: rgba(246,245,245,0.75);
- 
+.banner img {
+    width: 100%;
+    max-height: 700px;  
 }
 
-#groomPrice, #contact {
+.statement {
+    color: #314e52;
+    display: flex;
+    justify-content: center;
     text-align: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.bannerTablet {
-    display: none;
-}
-
-.bannerMobile {
-    display: none;
-}
-
-.bannerMobileBack {
-    display: none;
-}
-
-/* Tablet screen size */
-@media only screen and (max-width: 1023px) {
-    .bannerDesktop {
-        display: none;
-    }
-    .bannerTablet {
-        display: block;
-    }
+    font-size: 1.5rem;
     
 }
 
 
+/*=============Info Cards =============*/
 
-/* Mobile screen size */
+.threeInfo {
+    display: flex;
+    justify-content: space-around;
+    background-color: #314e52;
 
-@media only screen and (max-width: 828px) {
-    .bannerDesktop {
-        display: none;
-    }
-    .bannerTablet {
-        display: none;
-    }
-    .bannerMobile {
-        display:block;
-        width: 100%;
-        height: auto;
-        z-index: 0;
-    }
+}
 
-    .bannerMobileBack {
-        position:absolute;
-        width: 100%;
-        height: auto;
-        z-index: 1;
-    }
 
-    .statementContainer h1 {
-        display: none;
-    }
-    .statementContainer .social {
-        margin-right: -0px;
-    }
+.infoCard {
+    border: 1px solid transparent;
+    border-radius: 2%;
+    margin: 20px;
+    max-width: 200px;
+    background-color: #f7f6e7;
 
-    .infoContainer {
-        width: auto;
-        display: block;
-        justify-content: center;
-        background-image: url("groom.png");
-        background-size: cover;
-    }
+}
 
-    .infoItem {
-        width: auto;
-      
-    }
+
+
+
+.infoCard img {
+    max-height: 200px;
+    max-width: 200px;
+    opacity: 0.8;
+    background-color: black;
+}
+
+#cali {
+    width: 150px;
+    height: 250px;
 }
