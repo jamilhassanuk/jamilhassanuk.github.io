@@ -161,9 +161,29 @@ header {
 
 
 @media only screen and (max-width: 768px) {
-    #right-header {
-        display: none;
+    header {
+        display: flex;
+        flex-direction: column;
+      
     }
+
+   header {
+       padding-bottom: 10px;
+   }
+
+   #left-header {
+       display: flex;
+       justify-content: center;
+   }
+
+
+
+   #right-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
 
     .threeInfo {
         display:flex;
@@ -177,4 +197,5 @@ header {
         display: flex;
         flex-direction: column-reverse;
     }
+
 }
