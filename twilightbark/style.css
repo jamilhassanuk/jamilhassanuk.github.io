@@ -165,11 +165,16 @@ header {
         display: none;
     }
 
-    #threeInfo {
+    .threeInfo {
         display:flex;
         flex-wrap: wrap;
         background-color: #314e52;
         border-top: 10px solid #f68b4d;
     
+    }
+
+    .bottonBanner {
+        display: flex;
+        flex-direction: column-reverse;
     }
 }
