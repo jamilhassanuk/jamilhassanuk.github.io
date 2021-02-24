@@ -32,6 +32,7 @@ body {
     flex-direction: column;
     /*border: 1px solid red;*/
     overflow: hidden;
+    margin-bottom: 20px;
 }
 
 .title h1 {
@@ -44,23 +45,58 @@ body {
 
 .title h2 {
     font-size: 2rem;
-    
-    animation: h1 800ms ease-in;
+    animation: h2 800ms ease-in;
+    margin-left: 50%;
 }
 
 @keyframes h1{
     0% {
-        letter-spacing:  1em;
+        letter-spacing:  0.5em;
+        color: #1d1d1f;
     }
     100% {
         letter-spacing: initial;
+        color: orange;
     }
 }
+
 @keyframes h2 {
     0% {
-        letter-spacing:  1em;
+        letter-spacing:  0.5em;
     }
     100% {
         letter-spacing: initial;
+        color: purple;
     }
 }
+
+
+
+#skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    visibility: hidden;
+ 
+}
+
+#skills img {
+    height: 75px;
+    width: 75px;
+    padding: 5px;
+}
+
+.orange {
+    color: rgb(219, 144, 5);
+}
+
+.purple {
+    color: purple;
+}
+
+
+
+
+
