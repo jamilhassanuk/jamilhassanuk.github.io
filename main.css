@@ -96,7 +96,21 @@ body {
     color: purple;
 }
 
+/* ==================================== */
+
+
+#projectResumeContainer {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border-top: solid 1px black;
+    visibility: hidden;
+    margin-top: 50px;
+}
 
 
 
 
+#projectResumeContainer h3  {
+    font-size: 3rem;
+}
