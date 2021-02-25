@@ -2,10 +2,17 @@
     box-sizing: content-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
+    width: auto;
+    margin: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #1d1d1f;
-    overflow: hidden;
+   
+    background-color: #f3eded;
 }
 
 .header {
@@ -15,6 +22,7 @@ body {
 
 .header ul {
     list-style: none;
+    padding-right: 15px;;
 }
 
 .header ul li {
@@ -106,6 +114,8 @@ body {
     border-top: dashed 1px purple;
     visibility: hidden;
     margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 
@@ -116,11 +126,58 @@ body {
 }
 
 
-#projectLink {
-    
-    color: #e45826;
+#projectLink a {
+    color: #d45223;
+    text-decoration: none;
 }
+
+
 
 #resumeLink {
     color: #f0a500
+}
+
+/* =============================== */
+
+#projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#projectLink a:hover {
+    color: #7aa895;
+    transition: 0.3s;
+}
+
+
+/* ============================== */
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 150px;
+    background-color: #d45223;
+    padding-top: 20px   ;
+}
+
+.projectCard {
+    min-width: 300px;
+    min-height: 300px;
+    border: 1px solid #d45223;
+    border-radius: 2%;
+    margin: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+.projectCard img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.projectCard:hover {
+    transform: scale(1.04);
+    transition: 0.3s;
 }
