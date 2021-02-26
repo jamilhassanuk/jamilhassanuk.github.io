@@ -12,7 +12,6 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #1d1d1f;
     background-color: rgb(243,237,237);
-    border: dashed 1px purple;
 }
 
 .header {
@@ -109,6 +108,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    visibility: hidden;
  
 }
 
@@ -227,6 +227,7 @@ body {
         align-items: center;
         flex-wrap: wrap;
         padding: 10px;
+        visibility: hidden;
     }
     
     #projectResumeContainer {
@@ -235,14 +236,13 @@ body {
         justify-content: center;
         align-items: center;
         border-top: dashed 1px purple;
-        visibility: hidden;
         margin-top: 100px;
         margin-left: 100px;
         margin-right: 100px;
     }
     
     #resumeLink h3{
-        visibility: hidden;
+        display: none;
     }
 
     #projects {
@@ -250,8 +250,9 @@ body {
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
-        margin-top: 150px;
+        margin-top: 0px;
         background-color: rgba(212,82,35,0.7);
-        padding-top: 45px   ;
+        padding-top: 45px;
+        margin-top: 120px;
     }
 }
