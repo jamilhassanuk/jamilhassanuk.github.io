@@ -12,12 +12,17 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #1d1d1f;
    
-    background-color: #f3eded;
+    background-color: rgb(243,237,237);
 }
 
 .header {
+    width: 100%;
+    position: fixed;
+    background-color: rgba(243,237,237,0.9);
+    z-index: 1;
     display: flex;
     justify-content: flex-end;
+
 }
 
 .header ul {
@@ -194,3 +199,9 @@ body {
 }
 
 
+@media only screen and (max-width: 800px) {
+    .header {
+        display: flex;
+        justify-content: center;
+    }
+}
