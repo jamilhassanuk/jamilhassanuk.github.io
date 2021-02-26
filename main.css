@@ -41,40 +41,51 @@ body {
     /*border: 1px solid red;*/
     overflow: hidden;
     margin-bottom: 20px;
+    /*border: 1px solid red;*/
 }
 
 .title h1 {
-
     font-size: 7rem;
     margin-top: 100px;
     margin-bottom: 0px;
-    animation: h1 500ms ease-in;
+    animation: h1 1600ms ease-in;
+}
+
+.heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /*border: 1px solid red;*/
 }
 
 .title h2 {
     font-size: 3rem;
-    animation: h2 800ms ease-in;
+    animation: h2 1000ms ease-in;
     margin-left: 50%;
 }
 
 @keyframes h1{
     0% {
-        letter-spacing:  0.5em;
+        /*letter-spacing:  0.5em;*/
         color: #1d1d1f;
+        opacity: 0;
+        color: rgb(219, 144, 5);
     }
     100% {
         letter-spacing: initial;
-        color: orange;
+        opacity: 1;
     }
 }
 
 @keyframes h2 {
     0% {
-        letter-spacing:  0.5em;
+        /*letter-spacing:  0.5em;*/
+        opacity: 0.8;
+        color: purple;
     }
     100% {
         letter-spacing: initial;
-        color: purple;
+        opacity: 0;
     }
 }
 
@@ -158,14 +169,14 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
     margin-top: 150px;
-    background-color: #d45223;
+    background-color: rgba(212,82,35,0.7);
     padding-top: 20px   ;
 }
 
 .projectCard {
     min-width: 300px;
     min-height: 300px;
-    border: 1px solid #d45223;
+    border: 2px solid black;
     border-radius: 2%;
     margin: 10px;
     background-color: white;
@@ -181,3 +192,5 @@ body {
     transform: scale(1.04);
     transition: 0.3s;
 }
+
+
