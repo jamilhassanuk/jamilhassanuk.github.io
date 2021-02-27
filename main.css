@@ -245,12 +245,12 @@ body {
 
     #header ul li {
         display: inline;
-        font-size: 0.8rem;
+        font-size: 0.75rem;
         padding: 5px;
         text-decoration: none;
         font-weight: bold;
     }
-    
+
     .title h1 {
         font-size: 3rem;
         margin-top: 100px;
