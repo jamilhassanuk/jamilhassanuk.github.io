@@ -14,6 +14,13 @@ document.addEventListener('DOMContentLoaded', function() {
     
  }, false);
 
+function showProjects() {
+    let elProjects = document.getElementById("projects");
+    elProjects.style.visibility = "visible";
+}
+
+ document.addEventListener('scroll', showProjects, false);
+
 
 
  

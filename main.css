@@ -171,7 +171,8 @@ body {
     justify-content: center;
     margin-top: 150px;
     background-color: rgba(212,82,35,0.7);
-    padding-top: 20px   ;
+    padding-top: 20px;
+    visibility: hidden;
 }
 
 .projectCard {
@@ -231,6 +232,8 @@ body {
 }
 
 /* ============================== */
+
+
 
 
 @media only screen and (max-width: 900px) {
