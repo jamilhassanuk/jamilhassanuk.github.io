@@ -2,6 +2,13 @@
     box-sizing: content-box;
     /*border: 1px solid red; */
 }
+
+
+html {
+    width: 100%;
+}
+
+
 body {
     max-width: 1400px;
     margin: auto;
@@ -86,6 +93,7 @@ header {
 /*=============Info Cards =============*/
 
 .threeInfo {
+    width: 100%;
     display: flex;
     justify-content: space-around;
     background-color: #314e52;
@@ -95,6 +103,7 @@ header {
 
 
 .infoCard {
+    width: 100%;
     
     margin: 20px;
     max-width: 300px;
@@ -109,6 +118,7 @@ header {
 
 
 .infoCard img {
+    width:100%;
     max-height: 300px;
     max-width: 300px;
     opacity: 0.9;
@@ -144,17 +154,17 @@ header {
 
 }
 
-#bottomRight ul li {
-    list-style: none;
-    display: inline;
-    color: #f68b4d;
-    padding: 5px;
+
+#bottomLeft  {
+    display: flex;
+    justify-content: center;
 }
 
-#bottomLeft p {
+#bottomLeft a {
     margin: 20px;
     font-family: Oswald;
     color: white;
+    text-decoration: none;
 }
 
 
