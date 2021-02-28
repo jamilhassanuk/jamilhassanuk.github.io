@@ -16,6 +16,11 @@ body {
     font-family: Oswald;
 }
 header {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
     height: 130px;
     background-color: #314e52;
     color: white;
@@ -41,6 +46,13 @@ header {
     display: inline;
     list-style: none;
     padding: 5px;
+    text-decoration: none;
+}
+
+#nav-list a {
+
+    text-decoration: none;
+    color: white;
 }
 
 #social-media {
@@ -70,6 +82,8 @@ header {
 /* ===========BANNER================*/
 
 .bannerContainer {
+    position: relative;
+    top: 130px;
     display: flex;
     justify-content: center;
     
@@ -81,6 +95,8 @@ header {
 }
 
 .statement {
+    position: relative;
+    top: 130px;
     color: #314e52;
     display: flex;
     justify-content: center;
@@ -93,6 +109,8 @@ header {
 /*=============Info Cards =============*/
 
 .threeInfo {
+    position: relative;
+    top: 130px;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -130,6 +148,8 @@ header {
 
 
 .bottonBanner {
+    position: relative;
+    top: 130px;
     display: flex;
     justify-content: space-between;
 }
